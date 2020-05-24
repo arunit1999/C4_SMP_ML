@@ -1,3 +1,4 @@
+
 # Week 5
 This assignment was created using:
 * TensorFlow Version : 2.1.0
@@ -31,3 +32,15 @@ Visual Representation of our CNN model using the *plot_model* function from tf.k
  
  * **model_result.png** 
 Screenshot of the Testing and Training Accuracy computed after completion of training the model with 200 epochs.
+* **photo.jpg**
+
+![Test Photo](photo.jpg)
+
+Photo we shall use to test the model with our own image and generate predictions.
+* **Detector.​py**
+ The file will load our CNN Classifier Model and then use it to generate predictions on the test image *photo.jpg*. The results are then stored in *predicted_results.jpg*
+ * **predicted_results.jpg**
+
+![Predicted Results](predicted_results.jpg)
+
+ This is the result of *Detector.​py* and is basically the test photo after highlighting the ROIs (Regions of Interests) and then generating predictions for each digit using the model.
